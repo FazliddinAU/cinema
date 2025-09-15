@@ -6,12 +6,12 @@ export default defineConfig({
   server: {
     proxy: {
       "/api/": {
-        target: "https://cinema-cu8z.onrender.com",
+        target: "https://cinema-9y21.onrender.com",
         changeOrigin: true,
         secure: false,
       },
       "/uploads/": {
-        target: "https://cinema-cu8z.onrender.com",
+        target: "https://cinema-9y21.onrender.com",
         changeOrigin: true,
         secure: false,
       },
